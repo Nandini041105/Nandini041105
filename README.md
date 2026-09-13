@@ -1,7 +1,10 @@
 # Hi there, I'm Nandini
 An Electronics and Communication Engineering undergrad passionate about VLSI Design, RTL Design, FPGA Prototyping, and Embedded Systems. I enjoy designing digital circuits, writing synthesizable Verilog HDL, and building IoT hardware solutions.
+
 **Interests**: RTL Design, Digital IC Design, Low-Power Architectures, FPGA Implementation, and Hardware-Software Co-design
+
 **Current Focus:** Vivado FPGA implementation, FSM design, and CMOS circuit design using Cadence Virtuoso
+
 **Goal:** Seeking opportunities in Chip Design, RTL Verification, and Embedded Systems
 
 **Technical Skills**
@@ -34,3 +37,97 @@ An Electronics and Communication Engineering undergrad passionate about VLSI Des
 - MICRO ARCHITECTURE
 - Hardware Testing, Debugging & Sensor Interfacing
 ---
+
+## 🚀 Featured Projects
+<table>
+  <tr>
+    <!-- COLUMN 1: UART FPGA PROJECT -->
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ Low-Power UART on Artix-7 FPGA</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/VLSI%20%7C%20FPGA-Verilog%20HDL-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/Power%20Reduction-50.00%25-brightgreen?style=flat-square" />
+      </p>
+      <p>
+        Synthesizable 8-N-1 UART IP core for <b>Xilinx Artix-7</b> featuring activity-based clock gating, Gray-coded low-Hamming FSMs, and counter-freeze sleep logic.
+      </p>
+      <ul>
+        <li><b>Dynamic Power Savings:</b> 50.00% ($4\text{ mW} \rightarrow 2\text{ mW}$)</li>
+        <li><b>Area Optimization:</b> 42.86% Slice LUT reduction</li>
+        <li><b>Timing Closure:</b> WNS $+6.301\text{ ns}$ at $100\text{ MHz}$</li>
+      </ul>
+      <p><b>Tech Stack:</b> <code>Verilog HDL</code> <code>Vivado ML</code> <code>Artix-7</code></p>
+      <p align="center">
+        <a href="https://github.com/nandinik/low-power-uart-artix7"><b>View Repository →</b></a>
+      </p>
+    </td>
+    <!-- COLUMN 2: SMART SHOPPING TROLLEY -->
+    <td width="50%" valign="top">
+      <h3 align="center">🛒 Smart Shopping Trolley (IoT)</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/IoT%20%7C%20Embedded-Arduino%20%26%20ESP32-green?style=flat-square" />
+        <img src="https://img.shields.io/badge/Checkout%20Time-%E2%86%93%2060%25-orange?style=flat-square" />
+      </p>
+      <p>
+        Automated retail shopping trolley with RFID product recognition, real-time LCD expenditure calculation, dynamic cart editing, and contactless UPI payments.
+      </p>
+      <ul>
+        <li><b>Queue Elimination:</b> Reduced customer checkout delays by 60%</li>
+        <li><b>Smart Hardware:</b> EM-18 / RC522 RFID reader with $13.56\text{ MHz}$ tags</li>
+        <li><b>Wireless Connectivity:</b> ESP32 Wi-Fi dashboard for mobile checkout</li>
+      </ul>
+      <p><b>Tech Stack:</b> <code>Embedded C</code> <code>Arduino</code> <code>ESP32</code> <code>RFID</code></p>
+      <p align="center">
+        <a href="https://github.com/navyashree795/SMART-SHOPPING-TROLLEY-"><b>View Repository →</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <!-- COLUMN 3: CADENCE CMOS DECODER -->
+    <td width="50%" valign="top">
+      <h3 align="center">🔬 2:4 Decoder Design (Cadence Virtuoso)</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Analog%20%26%20Digital-Cadence%20Virtuoso-red?style=flat-square" />
+        <img src="https://img.shields.io/badge/Process-GPDK%20180nm-green?style=flat-square" />
+      </p>
+      <p>
+        Transistor-level schematic design, functional transient analysis, and timing verification of an active-high 2:4 decoder using complementary static CMOS logic.
+      </p>
+      <ul>
+        <li><b>Symmetric Sizing:</b> $W_p / W_n = 4\mu\text{m} / 2\mu\text{m}$ for balanced rise/fall delay</li>
+        <li><b>Spectre Transient:</b> Verified full truth table across all 4 vector states</li>
+        <li><b>Timing Metrics:</b> Propagation delay $\approx 40.3\text{ ps}$, leakage $< 8.5\text{ nW}$</li>
+      </ul>
+      <p><b>Tech Stack:</b> <code>Cadence Virtuoso</code> <code>Spectre Simulator</code> <code>CMOS</code></p>
+      <p align="center">
+        <a href="https://github.com/nandinik/cmos-2to4-decoder-cadence"><b>View Repository →</b></a>
+      </p>
+    </td>
+    <!-- COLUMN 4: TRAFFIC MANAGEMENT SYSTEM -->
+    <td width="50%" valign="top">
+      <h3 align="center">🚦 Multi-Modal Traffic Management</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Hackathon%20Project-Smart%20Cities-purple?style=flat-square" />
+        <img src="https://img.shields.io/badge/Wait%20Time-%E2%86%93%2054%25-brightgreen?style=flat-square" />
+      </p>
+      <p>
+        Software-driven intelligent traffic signal controller with dynamic green-time scheduling based on real-time lane density and immediate emergency preemption.
+      </p>
+      <ul>
+        <li><b>Dynamic Allocation:</b> $10\text{s} \le T_{\text{green}} \le 60\text{s}$ weighted queue splits</li>
+        <li><b>Emergency Preemption:</b> Safe corridor clearance in $< 4.8\text{ seconds}$</li>
+        <li><b>Throughput Boost:</b> $51.6\%$ improvement over fixed-timer signals</li>
+      </ul>
+      <p><b>Tech Stack:</b> <code>C++17</code> <code>Python</code> <code>Dynamic Algorithms</code></p>
+      <p align="center">
+        <a href="https://github.com/nandinik/multimodal-traffic-management"><b>View Repository →</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+---
+## 📬 Connect with Me
+<p align="left">
+  <a href="https://www.linkedin.com/in/nandini-k-99a804340/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:krish41105@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
