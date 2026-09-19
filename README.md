@@ -62,6 +62,7 @@ An Electronics and Communication Engineering undergrad passionate about VLSI Des
       </p>
       <ul>
         <li><b>Native Mobile App:</b> Built with Expo SDK 57, React Native, custom dark mode, and local device PDF picker</li>
+        <li><b>Live Job Placements:</b> Real-time vacancy matching by preferred location with 1-click Naukri/LinkedIn apply</li>
         <li><b>Strict AI Rubric Coach:</b> Real-time technical question generation & evaluation based on Job Descriptions</li>
         <li><b>ATS Quality Matcher:</b> Weighted compatibility engine (Skills 40%, Keywords 20%, Experience 15%)</li>
       </ul>
