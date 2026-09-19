@@ -20,6 +20,16 @@ An Electronics and Communication Engineering undergrad passionate about VLSI Des
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
 ![UART](https://img.shields.io/badge/Protocol-UART%20%7C%20RFID%20%7C%20I2C-informational?style=flat)
 
+**Web, Mobile & AI Technologies:**
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
+![React.js](https://img.shields.io/badge/React.js-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini_AI-4285F4?style=flat&logo=google&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
 **EDA & Simulation Tools:**
 ![Xilinx Vivado](https://img.shields.io/badge/Xilinx_Vivado-orange?style=flat)
@@ -28,20 +38,39 @@ An Electronics and Communication Engineering undergrad passionate about VLSI Des
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 **Core Competencies:**
-- Digital Electronics
-- CMOS Logic Design
-- RTL Coding & Simulation
-- VHDL
-- Finite State Machine (FSM) Design
-- RISC-5
-- MICRO ARCHITECTURE
+- Digital Electronics & CMOS Logic Design
+- RTL Coding (Verilog/VHDL) & Simulation
+- Finite State Machine (FSM) & Microarchitecture
+- Cross-Platform Mobile App Development (React Native / Expo SDK 57)
+- Full-Stack API Engineering (Node.js, Express, MongoDB)
+- AI Integration & LLM Prompting (Google Gemini API)
 - Hardware Testing, Debugging & Sensor Interfacing
 ---
 
 ## 🚀 Featured Projects
 <table>
   <tr>
-    <!-- COLUMN 1: UART FPGA PROJECT -->
+    <!-- COLUMN 1: AI CAREER COACH & MOBILE SUITE -->
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ AI Career Coach & Mock Interview App</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Mobile-React%20Native%20%7C%20Expo%2057-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/AI%20Engine-Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white" />
+      </p>
+      <p>
+        Full-stack career engineering suite with a native iOS/Android mobile app (React Native/Expo) and web app. Features ATS resume parsing, skill gap roadmaps, and an AI mock interview coach with strict rubric grading.
+      </p>
+      <ul>
+        <li><b>Native Mobile App:</b> Built with Expo SDK 57, React Native, custom dark mode, and local device PDF picker</li>
+        <li><b>Strict AI Rubric Coach:</b> Real-time technical question generation & evaluation based on Job Descriptions</li>
+        <li><b>ATS Quality Matcher:</b> Weighted compatibility engine (Skills 40%, Keywords 20%, Experience 15%)</li>
+      </ul>
+      <p><b>Tech Stack:</b> <code>React Native</code> <code>Expo 57</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Gemini AI</code></p>
+      <p align="center">
+        <a href="https://github.com/Nandini041105/ai-career-coach"><b>View Repository →</b></a>
+      </p>
+    </td>
+    <!-- COLUMN 2: UART FPGA PROJECT -->
     <td width="50%" valign="top">
       <h3 align="center">⚡ Low-Power UART on Artix-7 FPGA</h3>
       <p align="center">
@@ -61,7 +90,9 @@ An Electronics and Communication Engineering undergrad passionate about VLSI Des
         <a href="https://github.com/nandinik/low-power-uart-artix7"><b>View Repository →</b></a>
       </p>
     </td>
-    <!-- COLUMN 2: SMART SHOPPING TROLLEY -->
+  </tr>
+  <tr>
+    <!-- COLUMN 3: SMART SHOPPING TROLLEY -->
     <td width="50%" valign="top">
       <h3 align="center">🛒 Smart Shopping Trolley (IoT)</h3>
       <p align="center">
@@ -103,7 +134,9 @@ An Electronics and Communication Engineering undergrad passionate about VLSI Des
         <a href="https://github.com/nandinik/cmos-2to4-decoder-cadence"><b>View Repository →</b></a>
       </p>
     </td>
-    <!-- COLUMN 4: TRAFFIC MANAGEMENT SYSTEM -->
+  </tr>
+  <tr>
+    <!-- COLUMN 5: TRAFFIC MANAGEMENT SYSTEM -->
     <td width="50%" valign="top">
       <h3 align="center">🚦 Multi-Modal Traffic Management</h3>
       <p align="center">
