@@ -5,7 +5,7 @@ An Electronics and Communication Engineering undergrad passionate about VLSI Des
 
 **Current Focus:** Vivado FPGA implementation, FSM design, and CMOS circuit design using Cadence Virtuoso
 
-**Goal:** Seeking opportunities in Chip Design, RTL Verification, and Embedded Systems
+**Goal:** Seeking opportunities in Chip Design, RTL Verification,Embedded Systems ,web and application development.
 
 **Technical Skills**
 ![Verilog](https://img.shields.io/badge/Verilog_HDL-00599C?style=flat&logo=c&logoColor=white)
